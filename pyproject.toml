@@ -11,15 +11,15 @@ homepage = "https://databaseci.com/docs/migra"
 
 [tool.poetry.dependencies]
 python = ">=3.7,<4"
-sqlbag = "*"
+sqlbag = ">=0.1.1617247075"
 six = "*"
 # schemainspect = {path="../schemainspect", develop=true}
 schemainspect = ">=3.1.1652015119"
 psycopg2-binary = { version="*", optional = true }
 
 [tool.poetry.dev-dependencies]
-sqlbag = "*"
-pytest = "*"
+pytest = {version="*", python=">=3.5,<4"}
+sqlbag = ">=0.1.1617247075"
 pytest-cov = "*"
 pytest-clarity = "*"
 psycopg2-binary = "*"
